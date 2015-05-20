@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C61567E21B0B4A310060CFC6 /* BRH-11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C61567E11B0B4A310060CFC6 /* BRH-11.jpg */; };
 		D7B041191B07832B0008CC84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7B041181B07832B0008CC84 /* Foundation.framework */; };
 		D7B0411B1B07832B0008CC84 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7B0411A1B07832B0008CC84 /* CoreGraphics.framework */; };
 		D7B0411D1B07832B0008CC84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7B0411C1B07832B0008CC84 /* UIKit.framework */; };
@@ -21,6 +22,8 @@
 		D7B0413A1B07832B0008CC84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7B0411C1B07832B0008CC84 /* UIKit.framework */; };
 		D7B041421B07832B0008CC84 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7B041401B07832B0008CC84 /* InfoPlist.strings */; };
 		D7B041441B07832B0008CC84 /* EatloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B041431B07832B0008CC84 /* EatloTests.m */; };
+		D7B0414F1B0783B10008CC84 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B0414E1B0783B10008CC84 /* DetailViewController.m */; };
+		D7B041511B0788210008CC84 /* Eatlo_Logo_square.png in Resources */ = {isa = PBXBuildFile; fileRef = D7B041501B0788210008CC84 /* Eatlo_Logo_square.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C61567E11B0B4A310060CFC6 /* BRH-11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "BRH-11.jpg"; sourceTree = "<group>"; };
 		D7B041151B07832B0008CC84 /* Eatlo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eatlo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7B041181B07832B0008CC84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D7B0411A1B07832B0008CC84 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +57,9 @@
 		D7B0413F1B07832B0008CC84 /* EatloTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EatloTests-Info.plist"; sourceTree = "<group>"; };
 		D7B041411B07832B0008CC84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D7B041431B07832B0008CC84 /* EatloTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EatloTests.m; sourceTree = "<group>"; };
+		D7B0414D1B0783B10008CC84 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		D7B0414E1B0783B10008CC84 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		D7B041501B0788210008CC84 /* Eatlo_Logo_square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Eatlo_Logo_square.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +120,8 @@
 			isa = PBXGroup;
 			children = (
 				D7B041271B07832B0008CC84 /* AppDelegate.h */,
+				D7B0414D1B0783B10008CC84 /* DetailViewController.h */,
+				D7B0414E1B0783B10008CC84 /* DetailViewController.m */,
 				D7B041281B07832B0008CC84 /* AppDelegate.m */,
 				D7B0412A1B07832B0008CC84 /* Main.storyboard */,
 				D7B0412D1B07832B0008CC84 /* ViewController.h */,
@@ -126,6 +135,8 @@
 		D7B0411F1B07832B0008CC84 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C61567E11B0B4A310060CFC6 /* BRH-11.jpg */,
+				D7B041501B0788210008CC84 /* Eatlo_Logo_square.png */,
 				D7B041201B07832B0008CC84 /* Eatlo-Info.plist */,
 				D7B041211B07832B0008CC84 /* InfoPlist.strings */,
 				D7B041241B07832B0008CC84 /* main.m */,
@@ -228,7 +239,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C61567E21B0B4A310060CFC6 /* BRH-11.jpg in Resources */,
 				D7B041311B07832B0008CC84 /* Images.xcassets in Resources */,
+				D7B041511B0788210008CC84 /* Eatlo_Logo_square.png in Resources */,
 				D7B041231B07832B0008CC84 /* InfoPlist.strings in Resources */,
 				D7B0412C1B07832B0008CC84 /* Main.storyboard in Resources */,
 			);
@@ -252,6 +265,7 @@
 				D7B0412F1B07832B0008CC84 /* ViewController.m in Sources */,
 				D7B041291B07832B0008CC84 /* AppDelegate.m in Sources */,
 				D7B041251B07832B0008CC84 /* main.m in Sources */,
+				D7B0414F1B0783B10008CC84 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,7 +347,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -365,7 +379,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -376,6 +390,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Eatlo/Eatlo-Prefix.pch";
 				INFOPLIST_FILE = "Eatlo/Eatlo-Info.plist";
@@ -389,6 +404,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Eatlo/Eatlo-Prefix.pch";
 				INFOPLIST_FILE = "Eatlo/Eatlo-Info.plist";
@@ -456,6 +472,7 @@
 				D7B041491B07832B0008CC84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7B0414A1B07832B0008CC84 /* Build configuration list for PBXNativeTarget "EatloTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +481,7 @@
 				D7B0414C1B07832B0008CC84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
